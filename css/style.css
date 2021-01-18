@@ -48,3 +48,11 @@
     margin-left: -15rem;
   }
 }
+
+#btnCard{
+  height:44px;
+}
+
+#imgCard{
+  object-fit: cover;
+}
