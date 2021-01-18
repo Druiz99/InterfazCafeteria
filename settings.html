@@ -1,4 +1,4 @@
-<html lang="es">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,7 +14,7 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
         rel="stylesheet">
 
-    <title>Home</title>
+    <title>Ajustes</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark colorNavbar " id="navbar">
@@ -40,7 +40,7 @@
                     Nombre usuario
                     </a>
                 <div class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="settings.html">Mi perfil</a>
+                    <a class="dropdown-item" href="#">Mi perfil</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">Cerrar sesión</a>
                 </div>
@@ -61,7 +61,7 @@
             <a href="index.html" class="list-group-item list-group-item-action bg-light"><img src="img/home.svg" width="30" height="30" alt=""> Home</a>
             <a href="restaurant.html" class="list-group-item list-group-item-action bg-light"><img src="img/restaurant.svg" width="30" height="30" alt=""> Restaurantes</a>
             <a href="pedidos.html" class="list-group-item list-group-item-action bg-light"><img src="img/pedido.svg" width="30" height="30" alt=""> Pedidos</a>
-            <a href="settings.html" class="list-group-item list-group-item-action bg-light"><img src="img/settings.svg" width="30" height="30" alt=""> Ajustes</a>
+            <a href="settings.html" class="list-group-item list-group-item-action bg-light"><img src="img/settings.svg" width="30" height="30" alt=""> Settings</a>
         </div>
         <div class="m-3 float-right">
         </div>
@@ -69,9 +69,52 @@
 
     <!-- contenido de pagina  -->
     <div id="page-content-wrapper">
-        <div>
-            <h1>Titulo Chido</h1>
+        <div class="text-center">
+            <h1>Ajustes de cuenta</h1>
         </div>
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-8 mx-auto mt-2">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>Ajustes de perfil</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <a ><img src="img/user.svg" width="46" height="46" alt=""> Nombre usuario</a>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="">Cerrar sesion</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-8 mx-auto mt-2">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>Ajustes de pago</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <a><img src="img/payment.svg" alt=""> Tarjeta 1</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+
     </div>
     
 </div>
